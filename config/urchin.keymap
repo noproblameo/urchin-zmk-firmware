@@ -74,6 +74,26 @@
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <13 12>;
         };
+
+        r_gui {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <6 7>;
+        };
+
+        r_alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <26 27>;
+        };
+
+        l_gui {
+            bindings = <&kp LGUI>;
+            key-positions = <3 2>;
+        };
+
+        l_alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <23 22>;
+        };
     };
 
     keymap {
