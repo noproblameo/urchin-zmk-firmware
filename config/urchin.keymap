@@ -65,18 +65,18 @@
         // left index & middle fingers (home-row)
         // hold control & space for Adobe workflow
 
-        r_ctrl {
-            bindings = <&kp RIGHT_CONTROL>;
+        r_gui {
+            bindings = <&kp RIGHT_GUI>;
             key-positions = <16 17>;
         };
 
-        l_ctrl {
-            bindings = <&kp LEFT_CONTROL>;
+        l_gui {
+            bindings = <&kp LEFT_GUI>;
             key-positions = <13 12>;
         };
 
-        r_gui {
-            bindings = <&kp RIGHT_GUI>;
+        r_ctrl {
+            bindings = <&kp RCTRL>;
             key-positions = <6 7>;
         };
 
@@ -85,8 +85,8 @@
             key-positions = <26 27>;
         };
 
-        l_gui {
-            bindings = <&kp LGUI>;
+        l_ctrl {
+            bindings = <&kp LCTRL>;
             key-positions = <3 2>;
         };
 
